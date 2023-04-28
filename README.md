@@ -1,7 +1,8 @@
-**README.md**
+
 public class JvmComprehension {
 
-    public static void main(String[] args) { //Главный метод программы с аргументом массива строк
+public static void main(String[] args) { //Главный метод программы 
+с аргументом массива строк
 int i = 1; // 1 Объявление фрейма и инициализация переменной типа int со значением 1, 
 а также выделить и инициализировать на это все память в стеке
 
@@ -22,7 +23,7 @@ System.out.println("finished"); // 7 сборщик помещает метод 
                               // удаление из очереди метода main
 }
 
-    private static void printAll(Object o, int i, Integer ii) { //Объявление метода, объекты переданные 
+private static void printAll(Object o, int i, Integer ii) { //Объявление метода, объекты переданные 
                                                            //при вызове будут учитываться внутри метода   
 Integer uselessVar = 700; // 5 выделяет память в куче, добавляет ссылку на стек, 
                           //а также Объявление и инициализация объекта типа Integer со значением 700 
